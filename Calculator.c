@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("eAtividade de Produção: Calculadora em C\nAluno: Carlos Henrique Alves Oliveira\n");
+    printf("Atividade de Produção: Calculadora em C\nAluno: Carlos Henrique Alves Oliveira\n");
     printf("Matrícula : 202210881\nCurso: Análise e Desenvolvimento de Sistemas - Unilasalle-RJ.\n");
     float x, y;
     char escolha;
