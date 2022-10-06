@@ -3,16 +3,18 @@
 
 int main()
 {
-    printf("\nAtividade de Produção: Calculadora em C\nAluno: Carlos Henrique Alves Oliveira\nMatrícula : 202210881\nCurso: Análise e Desenvolvimento de Sistemas - Unilasalle-RJ.\n");
+    printf("eAtividade de Produção: Calculadora em C\nAluno: Carlos Henrique Alves Oliveira\n");
+    printf("Matrícula : 202210881\nCurso: Análise e Desenvolvimento de Sistemas - Unilasalle-RJ.\n");
     float x, y;
     char escolha;
     // as variáveis x e y serão os valores a serem calculados e a variável escolha representa as opções de operação ou a opção de sair do programa.
     // Foi utilizado o laço do-while para que enquanto a variável escolha seja diferente de 'x' (escolha de saída) o código abaixo seja executado.
     do
     {
-        printf("\nEscolha uma das opções para realizar a operação:\n (+) Somar\n (-) Subtrair\n (*) Multiplicar\n (/) Dividir\n (r) Raíz Quadrada\n (e) Expoente\n(ou (x) para sair)\nDigite o símbolo correspondente:\n");
+        printf("\nEscolha uma das opções para realizar a operação:\n (+) Somar\n (-) Subtrair\n (*) Multiplicar\n");
+        printf(" (/) Dividir\n (r) Raíz Quadrada\n (e) Expoente\n (ou (x) para sair)\nDigite o símbolo correspondente:\n");
         scanf("\n%c", &escolha);
-        // para a lógica de cada operação escolhi o laço switch-case , onde para cada caso é pedido ao usúario os 2 valores a serem calculados e em seguida é retornado o valor do resultado.
+        // para a lógica de cada operação escolhi o laço switch-case, onde para cada caso é pedido ao usúario os 2 valores a serem calculados e em seguida é retornado o valor do resultado.
         switch (escolha)
         {
         case '+':
